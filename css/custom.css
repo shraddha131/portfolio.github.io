@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px;padding:0px;}
+.top{margin-top:17px;}
+html {
+  scroll-behavior: smooth;
+}
+
+.bnr{ display:block;}
+.bnr1{ display:none;}
+#navbox{width:100%; background:#fff; position:fixed; background:rgba(255,255,255,0.9);z-index:1000; box-shadow:1px 1px 1px #ccc; display:block;}
+#navbox1{width:100%; background:#fff; position:fixed; background:rgba(255,255,255,0.9);z-index:1000; box-shadow:1px 1px 1px #ccc; display:none;}
+a{color:#000;}
+a:hover{color:#666;text-decoration:none;}
+
+#banner{width:100%; padding:20% 0px; background-image: url(../img/intro-bg.jpg); background-attachment:fixed; background-size:100%; background-repeat:no-repeat;}
+#active{color:#000;}
+.top1{margin-top:5%; margin-bottom:5%;}
+.top2{margin-top:50px;}
+.top3{ margin-top:7%;}
+.top4{margin-top:3%; margin-bottom:3%;}
+.top5{margin-top:20px;}
+.top6{margin-top:90px;}
+.top7{ margin-top:15px;}
+.clr{ background:#fff;}
+#skills{width:100%; padding:2% 0px; background:#ccc;background-image: url(../img/homeBG_jarell_alvarez_bcit_d31.jpg); background-attachment:fixed; background-size:cover; }
+#x{ margin-left:41%; margin-top:3%;}
+#box{ width:25%;padding:1% 0;background:;margin:30px auto;}
+.skillimg{width:50%;padding:1% 0;margin-left:28%;}
+/*.skillimg1{width:80%;padding:1% 0;display:none; margin-left:;}
+*/
+.button{ background:#fff;color:#009; padding:5px 30px; text-align:center; text-decoration:none; display:inline-block; margin:4px 2px;  border:2px solid #009; border-radius:1px; margin-bottom:50px;color:#8CC63F;text-align:center;;border:2px solid #8CC63F;background:#FFF; background:rgba(255,255,255,0.1); padding-top:8px;}
+
+
+
+
+.txt{font-family: 'Fahkwang', sans-serif; text-decoration:none;}
+.txt1{font-family: 'Chonburi', cursive; font-size:100px ;}
+.txt2{font-family: 'Fahkwang', sans-serif; text-decoration:none;text-align:center }
+.button{color:#8CC63F;text-align:center;;border:2px solid #8CC63F;background:#FFF; background:rgba(255,255,255,0.1); padding-top:8px;}
+
+.button:hover{ background:#8CC63F; color:#FFF;}
+
+#line{ background:#8CC63F;border-bottom:2px solid #8CC63F; width:225px; margin:0px auto;}
+
+#line1{ background:#8CC63F;border-bottom:2px solid #8CC63F; width:200px;}
+
+#line2{ background:#8CC63F;border-bottom:2px solid #8CC63F; width:160px; margin:0px auto;}
+
+/*graphics*/
+
+#portfolio {
+  background: #fff;
+  padding: 1px 0;
+}
+
+#portfolio .portfolio-item {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 260px;
+  width: 100%;
+  display: table;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#portfolio .portfolio-item .details {
+  height: 260px;
+  background: #000;
+  display: table-cell;
+  vertical-align: middle;
+  opacity: 0;
+  transition: 0.3s;
+  text-align: center;
+}
+
+#portfolio .portfolio-item .details h4 {
+  font-size: 16px;
+  transition: transform 0.3s, opacity 0.3s;
+  transform: translate3d(0, -15px, 0);
+  font-weight: 700;
+  color: #333333;
+}
+
+#portfolio .portfolio-item .details span {
+  display: block;
+  color: #666666;
+  font-size: 13px;
+  transition: transform 0.3s, opacity 0.3s;
+  transform: translate3d(0, 15px, 0);
+}
+
+#portfolio .portfolio-item:hover .details {
+  opacity: 0.8;
+}
+
+#portfolio .portfolio-item:hover .details h4 {
+  transform: translate3d(0, 0, 0);
+}
+
+#portfolio .portfolio-item:hover .details span {
+  transform: translate3d(0, 0, 0);
+}
+
+
+.br{ border:1px solid #ccc;}
+
+.btn{ display:none; margin-top:150px; width:200px; margin-left:130px;}
+
+.btn1{ display:block;}
+
+
+#tp{
+    border-bottom: 30px solid #333;
+    border-left: 30px solid rgba(0, 0, 0, 0);
+    border-right: 30px solid rgba(0, 0, 0, 0);
+ 	width:30px;
+	margin:0px auto;   
+}
+
+#skillsbox{width:100%; padding:2% 0px; background-image: url(../img/homeBG_jarell_alvarez_bcit_d31.jpg); background-attachment:fixed; background-size:cover;}
+#img1{ display:block;}
+#img2{ display:none; width:100%}
+.botm{ margin-bottom:50px;}
+#app{ display:block;}
+#app1{ display:none;}
+#resume{width:10%;padding:1% 0;background:;margin:30px auto; }
+#resume1{ margin:1% auto;}
+.buttonn{ width:20%; height:60px; margin:1% auto; border:3px solid #8CC63F; padding-top:12px; padding-left:85px; color:#8CC63F;font-family: 'Fahkwang', sans-serif; }
+.buttonn:hover{ background:#8CC63F; color:#fff;}
+.atxt{ color:#8CC63F;}
+.atxt:hover{color:#fff;}
+
+.buttonn1{ width:60%; height:50px; margin:1% auto; border:3px solid #8CC63F; padding-top:10px; padding-left:35px; color:#8CC63F;font-family: 'Fahkwang', sans-serif; }
+.buttonn1:hover{ background:#8CC63F; color:#fff;}
+.boxing{}
+.text{color:#8CC63F;}

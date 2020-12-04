@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+.txt{font-family: 'Quattrocento', serif; position: absolute;top:-150px}
+
+#banner{
+    width:100%;  
+    background-image: url(/img/landing-for-live-pro_02_01.gif);
+    background-size:100%; 
+    background-repeat:no-repeat;
+    
+}
+
+.text-box{width:30%;height:200px; margin-left:50px; margin-top:5%;}
+.txt1{ font-family:'Quattrocento', serif;position: absolute;}
+.txt2{ font:"zCOOL XiaoWei"; text-align:center;}
+#box1{ width:40%; height:450px;box-shadow:0px 1px 18px #b99068;}
+#box2{ width:40%; height:250px;  margin-left:650px;box-shadow:0px 1px 18px #b99068;}
+
+#headline{width:40%; padding:1% auto;  background-image:url(../img/landing-for-live-pro_04.gif); background-size:100%; background-repeat:no-repeat;}
+.txt4{ margin-left:180px;  font-size:60px; color:#666;}
+
+.top{ margin-top:5%;}
+
+#headline2{width:60%; padding:1% auto; background-image: url(../img/landing-for-live-pro_08.gif); background-size:100%; background-repeat:no-repeat;}
+.txt5{ margin-left:80px; margin-top:60px; font-size:60px; color:#666;}
+.sdw{box-shadow:0px 1px 20px #b99068;}
+.top1{ margin-top:10%;}
+#clr{width:80%; height:200px; background:#cea177;}
+#clr1{width:80%; height:200px; background:#fdf5c2;}
+#cl1{width:80%; height:160px; background:#8c623a; margin-top:50px}
+#cl2{width:80%; height:160px; background:#fcdb00; margin-top:50px}
+
+.txtfnt{ margin-left:30px;color:#8c623a}
+.txtfnt1{ margin-left:30px;color:#666}
+#headline3{width:40%; padding:1% auto; background-image: url(../img/landing-for-live-pro_12.gif); background-size:100%; background-repeat:no-repeat;}
+.txt6{ margin-left:85px; margin-top:55px; font-size:60px; color:#666;}
+
+#headline4{ width:25%; padding:1% auto; background-image:url(../img/landing-for-live-pro_16.gif);background-size:100%; background-repeat:no-repeat;}
+.txt7{ margin-left:70px; margin-top:55px; font-size:60px; color:#666;}
+.back2{ background:#8c623a;}
+
+.top1{margin-top:8%; margin-bottom: 8%;}
+
+.button{ background:#fff;color:#8c623a; padding:5px 30px; text-align:center; text-decoration:none; display:inline-block; margin:4px 2px;  border:2px solid #FFF; border-radius:3px; margin-bottom:50px;}
+
+.button:hover{ background:#fff; color:#8c623a;}
+a:hover{ text-decoration:none;}
+
+#box{ width:40%;padding:10% 0;margin-top:30px; margin-left:400px;}
+
+.top3{ padding-top:30px;}
+.top4{ margin-top:0px;}
+.top5{ margin-top:5%;}
+.top6{ margin-top:15%;}
+.txxt{ font-family:'Quattrocento', serif; padding-top:50px}
+.txxt1{ font-family:'Quattrocento', serif; padding-left:20px; padding-right:20px;}
+.tp{margin-top:12%;}
+.sdw1{box-shadow:0px 1px 20px #ccc;}
+.txt9{}
+.ft{ display:none;}
